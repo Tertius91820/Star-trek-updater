@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updater</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <section class = "row">
+    <section class = "column">
+      <h2>Current Aliens</h2>
+      <ul class ="aliens">
+          <% for(let i=0 ; i<info.lenght ; i++){%>
+              <li class = "alien">
+                  <span><%= info[i}%></span>
+              </li>
+          <% } %>
+      </ul>
+    </section>
+  </section>
+
+
+  <script type='text' src="/main.js"></script>
+</body>
+</html>
